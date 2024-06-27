@@ -5,20 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Web Development Journey</title>
     <link rel="stylesheet" href="styles.css" />
-    <style>
-      @media (max-width: 800px) {
-        body.works_on_smartphone main {
-          display: block;
-        }
-      }
-    </style>
   </head>
   <body class="works_on_smartphone">
     <header>
       <ul>
         <li>
-          <a href="./index.html">Home</a>
-          <a href="./tweets.html">Tweets</a>
+          <a href="./index.html">About</a>
+          <a href="./tweets.html">Projects</a>
+          <a href="./tweets.html">Contact</a>
+          <a href="#">Blog</a>
         </li>
       </ul>
     </header>
@@ -63,70 +58,45 @@
           my new challenge, I ain to create innovative solutions and contribute
           to the ever-evolving field of technology.
         </p>
-
-        <a href="https://www.alxafrica.com">
-          <img
-            src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png"
-            alt="ALX Logo"
-            style="width: 200px; height: auto"
-          />
-        </a>
-
-        <table>
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>Age</th>
-              <th>Country</th>
-            </tr>
-          </thead>
-
-          <tbody>
-            <tr>
-              <td>John</td>
-              <td>25</td>
-              <td>USA</td>
-            </tr>
-
-            <tr>
-              <td>Emily</td>
-              <td>28</td>
-              <td>Canada</td>
-            </tr>
-
-            <tr>
-              <td>Michael</td>
-              <td>32</td>
-              <td>Australia</td>
-            </tr>
-
-            <tr>
-              <td>Sophia</td>
-              <td>21</td>
-              <td>UK</td>
-            </tr>
-          </tbody>
-        </table>
-
-        <style>
-          table {
-            border-collapse: collapse;
-          }
-
-          th,
-          td {
-            border: 1px solid lightgray;
-            text-align: center;
-            padding: 8px;
-            margin: 0;
-          }
-        </style>
       </article>
+
       <aside>
         <!-- single paragraph, just reading for now "Placeholder to add comment thread later" -->
-        <p>Placeholder to add comment thread later</p>
+        <figure>
+          <img src="./Dawit Getahun.jpg" alt="Dawit Getahun" />
+        </figure>
+
+        <p>Front-End Developer & UI/UX Designer</p>
       </aside>
     </main>
+
+    <h3>Contact</h3>
+
+    <form action="submit_form.php" method="post">
+      <div class="form-group">
+        <input type="text" id="name" placeholder="Enter your name" required />
+      </div>
+
+      <div class="form-group">
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter your email"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <textarea
+          name="message"
+          id="message"
+          placeholder="Write you message here..."
+          required
+        ></textarea>
+      </div>
+
+      <button type="submit">Send</button>
+    </form>
 
     <footer>
       <p>

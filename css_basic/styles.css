@@ -1,10 +1,45 @@
+/* 
+  INSTRUCTIONS GIVEN
+  1. Can add any non-positioning-related CSS rules.
+  2. Can edit HTML content & CSS inside article
+  3. Add logo
+
+  NOT ALLOWED TO
+  1. change CSS FLEXBOX
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Yeseva+One);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,700,700italic,400italic);
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap");
+
+html,
+body {
+  height: 100%;
+  min-height: 100%;
+  box-sizing: border-box;
+}
+
 body,
 main {
   display: flex;
+  line-height: 1.3;
 }
 
 body {
   flex-direction: column;
+  font-family: "Josefine Sans", serif;
+  color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Vollkorn", sans-serif;
+  font-weight: 1000;
 }
 
 main {
@@ -17,9 +52,62 @@ article {
   overflow-y: auto;
 }
 
+article p {
+  color: #000;
+  font-weight: 540;
+}
+
+header > * {
+  display: inline-block;
+}
+
+header {
+  border-bottom: 1px solid rgb(221, 221, 221);
+  height: 100px;
+  text-align: right;
+  font-family: "Yeseva One";
+}
+
+header a {
+  color: #000;
+  text-decoration: none;
+}
+
+header li {
+  list-style: none;
+}
+
+aside {
+  background: #fafafa;
+  height: max-content;
+}
+
+aside p {
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: "Vollkorn", sans-serif;
+}
+
+figure img {
+  border-radius: 50%;
+  width: 100%;
+  transform: scale(0.8);
+}
+
+footer a {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+a {
+  color: #333;
+}
+
 aside {
   flex: 1;
   overflow-y: auto;
+  background: white;
 }
 
 @media (max-width: 800px) {
