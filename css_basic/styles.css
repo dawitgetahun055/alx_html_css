@@ -12,12 +12,18 @@ main {
   flex: auto;
 }
 
-main article {
+article {
   flex: 2;
   overflow-y: auto;
 }
 
-main aside {
+aside {
   flex: 1;
   overflow-y: auto;
+}
+
+@media (max-width: 800px) {
+  body.works_on_smartphone main {
+    display: block;
+  }
 }
