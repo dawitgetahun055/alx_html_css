@@ -111,7 +111,7 @@ git push origin feature/your-feature-name
 
 For any questions or suggestions, Please reach out to:
 
-- *Email*:dawitgetahun055@gmail.com
-- *GitHub*:dawitgetahun055
+- *Email*: dawitgetahun055@gmail.com
+- *GitHub*: dawitgetahun055
 
 Thank you for visiting Smile School! We hope you enjoy learning with us.
