@@ -22,10 +22,10 @@ Smile School is a user-friendly web application that provides users with tutoria
 
 - Main Section:
 	
-	-Introduction to Smile school
-	-Featured instructions with their achievements
-	-Testimonials from users
-	-List oof the most popular tutorials with ratings and duration.
+	- Introduction to Smile school
+	- Featured instructions with their achievements
+	- Testimonials from users
+	- List oof the most popular tutorials with ratings and duration.
 
 - Free Membership Section: Highlights the benefits of free membership and offers a registration button
 
