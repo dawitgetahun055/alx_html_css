@@ -1,0 +1,280 @@
+/* FONT STYLES */
+
+@font-face {
+  font-family: "source_sans_proSBdIt";
+  src: url("./source-sans-pro/sourcesanspro-boldit-webfont.woff2")
+      format("woff2"),
+    url("./source-sans-pro/sourcesanspro-semiboldit-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "source_sans_prosemibold";
+  src: url("./source-sans-pro/sourcesanspro-semibold-webfont.woff2")
+      format("woff2"),
+    url("./source-sans-pro/sourcesanspro-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "source_sans_proregular";
+  src: url("source-sans-pro/sourcesanspro-regular-webfont.woff2")
+      format("woff2"),
+    url("./source-sans-pro/sourcesanspro-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "source_sans_prolight_italic";
+  src: url("./source-sans-pro/sourcesanspro-lightit-webfont.woff2")
+      format("woff2"),
+    url("./source-sans-pro/sourcesanspro-lightit-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "source_sans_prolight";
+  src: url("./source-sans-pro/sourcesanspro-light-webfont.woff2")
+      format("woff2"),
+    url("./source-sans-pro/sourcesanspro-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "source_sans_proitalic";
+  src: url("./source-sans-pro/sourcesanspro-it-webfont.woff2") format("woff2"),
+    url("./source-sans-pro/sourcesanspro-it-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "source_sans_proXLtIt";
+  src: url("./source-sans-pro/sourcesanspro-extralightit-webfont.woff2")
+      format("woff2"),
+    url("./source-sans-pro/sourcesanspro-extralightit-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "source_sans_proextralight";
+  src: url("./source-sans-pro/sourcesanspro-extralight-webfont.woff2")
+      format("woff2"),
+    url("./source-sans-pro/sourcesanspro-extralight-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "source_sans_probold_italic";
+  src: url("./source-sans-pro/sourcesanspro-boldit-webfont.woff2")
+      format("woff2"),
+    url("./source-sans-pro/sourcesanspro-boldit-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "source_sans_probold";
+  src: url("source-sans-pro/sourcesanspro-bold-webfont.woff2") format("woff2"),
+    url("./source-sans-pro/sourcesanspro-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "source_sans_problack_italic";
+  src: url("./source-sans-pro/sourcesanspro-blackit-webfont.woff2")
+      format("woff2"),
+    url("./source-sans-pro/sourcesanspro-blackit-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "source_sans_problack";
+  src: url("./source-sans-pro/sourcesanspro-black-webfont.woff2")
+      format("woff2"),
+    url("./source-sans-pro/sourcesanspro-black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "holberton_school-icon";
+  src: url("./school_icons/holberton_school-icon/fonts/holberton_school-icon.ttf?sq4eq4");
+  src: url("./school_icons/holberton_school-icon/fonts/holberton_school-icon.eot?sq4eq4#iefix")
+      format("embedded-opentype"),
+    url("./school_icons/holberton_school-icon/fonts/holberton_school-icon.ttf?sq4eq4")
+      format("truetype"),
+    url("./school_icons/holberton_school-icon/fonts/holberton_school-icon.woff?sq4eq4")
+      format("woff"),
+    url("./school_icons/holberton_school-icon/fonts/holberton_school-icon.svg?sq4eq4#holberton_school-icon")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #f2f2f2;
+}
+
+body {
+  width: 375px;
+  height: 4860px;
+  background-color: #fff;
+  margin-inline: auto;
+  position: relative;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 29px;
+  width: 246.96px;
+  height: 31.18px;
+  justify-content: space-between;
+  z-index: 1;
+  margin-left: 21px;
+}
+
+header > ul {
+  display: none;
+}
+
+.burger-menu {
+  width: 20px;
+  height: 14px;
+  color: white;
+  position: relative;
+  cursor: pointer;
+}
+
+.burger-menu span {
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  border-radius: 2px;
+}
+
+.burger-menu span:nth-child(1) {
+  width: 100%;
+  top: 0;
+}
+
+.burger-menu span:nth-child(2) {
+  width: 13px;
+  top: 50%;
+}
+
+.burger-menu span:nth-child(3) {
+  width: 100%;
+  top: 100%;
+}
+
+.menu-toggle:checked + .burger-menu span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.menu-toggle:checked + .burger-menu span:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-toggle:checked + .burger-menu span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+header img {
+  width: 160.96px;
+  height: 31.18px;
+}
+
+.main-section {
+  width: 375px;
+  height: 869px;
+  position: relative;
+  top: 0;
+  background-image: url(./images/headphones_hero_1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  aspect-ratio: 1 / 1;
+  background-position: 33% -40px;
+  text-align: center;
+}
+
+.main-section h2 {
+  font-family: "source_sans_probold";
+  font-weight: 700;
+  font-size: 32px;
+  width: 357px;
+  height: 80px;
+  line-height: 40.22px;
+  color: #fff;
+}
+
+.main-section #small-text {
+  margin-top: 5px;
+  color: #fff;
+  margin-left: 30px;
+  font-family: "source_sans_probold";
+  font-size: 16px;
+  line-height: 17.6px;
+}
+
+.main-section button {
+  margin-top: 20px;
+  border-radius: 22px;
+  width: 162px;
+  height: 44px;
+  background-color: #ff6565;
+  border: none;
+  color: #fff;
+  font-family: "source_sans_probold";
+  font-size: 14px;
+  line-height: 17.6px;
+  font-weight: 700;
+}
+
+button:is(:hover, :active) {
+  opacity: 0.9;
+}
+
+.main-section #long-text {
+  margin-top: 57px;
+  margin-bottom: 0;
+  color: #fff;
+  width: 335px;
+  height: 194px;
+  margin-inline: auto;
+  text-align: center;
+  font-family: "source_sans_proregular";
+  font-weight: 400;
+  line-height: 26px;
+  font-size: 16px;
+}
+
+.main-section-container {
+  position: absolute;
+  width: 357px;
+  height: 436px;
+  left: 9px;
+  top: 327px;
+}
